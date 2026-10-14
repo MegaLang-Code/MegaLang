@@ -2,26 +2,22 @@
 here is some syntax for you to study
 I made it so quotes are not needed. Don't ask how
 ``` MegaLang
-If TRUE
-Speek The condition was met!
+MakeVar score, 10
+MakeVar hasWon, FALSE
+
+Speek Initial Score: ,  
+Speek score
+
+Ask Press enter to roll the dice...
+SetExistVar hasWon, TRUE
+
+If hasWon
+    Speek Winner! Final tally is: , 
+    ADD score, 5
 CheckElse
-Speek This will skip because the if was true.
+    Speek Looser! Game over.
 EndIf
 
-If FALSE
-Speek This will skip because the if was false.
-CheckElse
-Speek The alternative path worked perfectly!
-EndIf
-AskInputToVar Enter your system passcode: , USER_CODE
-
-If USER_CODE
-Speek Access Granted. Welcome to MegaLang!
-CheckElse
-Speek Access Denied. Incorrect credentials.
-EndIf
-Speek Loading system files... , 
-Speek Done!
 ```
 
 DON'T DO EVIL (check the bottom of the licence)
