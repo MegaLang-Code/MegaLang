@@ -22,4 +22,4 @@ EndIf
 
 DON'T DO EVIL (check the bottom of the licence)
 and NO malware of course. (I don't think in it's state is possible)
-(I lost 1.0)
+(I lost 1.0) At least we have the 1.0 exe.
