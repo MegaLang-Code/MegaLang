@@ -2,22 +2,37 @@
 here is some syntax for you to study
 I made it so quotes are not needed. Don't ask how
 ``` MegaLang
-MakeVar score, 10
-MakeVar hasWon, FALSE
+# Create some initial test variables
+MakeVar my_number, 500
+MakeVar delete_me_target, Temporary Data
 
-Speek Initial Score: ,  
-Speek score
+# Print the starting conditions
+Speek Running initial value check:
+Speek my_number
 
-Ask Press enter to roll the dice...
-SetExistVar hasWon, TRUE
+# Let's perform calculation tests
+Speek Adding values together:
+ADD my_number, 100
 
-If hasWon
-    Speek Winner! Final tally is: , 
-    ADD score, 5
-CheckElse
-    Speek Looser! Game over.
-EndIf
+# Test manual variable cleanup via DelVar
+Speek Now clearing out the temporary data variable...
+DelVar delete_me_target
 
+# Running an operational safety test 
+# This should trigger your new error message since the key is gone!
+DelVar delete_me_target
+
+# Test that system constants remain fully protected
+DelVar TRUE
+
+# Test memory optimizations block syntax
+AutoVarClean Off
+VarMemClean
+AutoVarClean On
+
+Speek Code executed completely and safely!
+
+StartServer 9450
 ```
 
 DON'T DO EVIL (check the bottom of the licence)
