@@ -1,7 +1,3 @@
-# ==========================================
-# MEGALANG COMPLETE SYNTAX REFERENCE
-# ==========================================
-
 # 1. VARIABLE MANIPULATION
 MakeVar PlayerName, Alex
 MakeVar HighScore, 2500
