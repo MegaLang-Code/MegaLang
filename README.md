@@ -2,37 +2,40 @@
 here is some syntax for you to study
 I made it so quotes are not needed. Don't ask how
 ``` MegaLang
-# Create some initial test variables
-MakeVar my_number, 500
-MakeVar delete_me_target, Temporary Data
+# 1. VARIABLE MANIPULATION
+MakeVar PlayerName, Alex
+MakeVar HighScore, 2500
+SetExistVar HighScore, 3000
+DelVar PlayerName
 
-# Print the starting conditions
-Speek Running initial value check:
-Speek my_number
+# 2. INPUT & OUTPUT (I/O)
+Speek HighScore
+Speek Loading assets...
+Ask Press Enter to boot the system...
+MakeVar UserResponse, empty
+AskInputToVar Enter your team color:, UserResponse
 
-# Let's perform calculation tests
-Speek Adding values together:
-ADD my_number, 100
+# 3. MATHEMATICAL OPERATIONS
+ADD HighScore, 500
+SUB 100, 25
+MULTI HighScore, 2
+DIV 100, 4
 
-# Test manual variable cleanup via DelVar
-Speek Now clearing out the temporary data variable...
-DelVar delete_me_target
+# 4. CONDITIONAL LOGIC BLOCKS
+MakeVar IsAdmin, TRUE
+If IsAdmin
+    Speek Access granted.
+CheckElse
+    Speek Access denied.
+EndIf
 
-# Running an operational safety test 
-# This should trigger your new error message since the key is gone!
-DelVar delete_me_target
+# 5. NETWORKING & WEB UTILITIES
+StartServerDev 8000
+StartServerProduct 8080
 
-# Test that system constants remain fully protected
-DelVar TRUE
-
-# Test memory optimizations block syntax
+# 6. ENGINE MEMORY CONFIGURATION
 AutoVarClean Off
 VarMemClean
-AutoVarClean On
-
-Speek Code executed completely and safely!
-
-StartServer 9450
 ```
 
 DON'T DO EVIL (check the bottom of the licence)
