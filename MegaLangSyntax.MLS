@@ -1,0 +1,38 @@
+# ==========================================
+# MEGALANG COMPLETE SYNTAX REFERENCE
+# ==========================================
+
+# 1. VARIABLE MANIPULATION
+MakeVar PlayerName, Alex
+MakeVar HighScore, 2500
+SetExistVar HighScore, 3000
+DelVar PlayerName
+
+# 2. INPUT & OUTPUT (I/O)
+Speek HighScore
+Speek Loading assets, ...
+Ask Press Enter to boot the system...
+MakeVar UserResponse, empty
+AskInputToVar Enter your team color:, UserResponse
+
+# 3. MATHEMATICAL OPERATIONS
+ADD HighScore, 500
+SUB 100, 25
+MULTI HighScore, 2
+DIV 100, 4
+
+# 4. CONDITIONAL LOGIC BLOCKS
+MakeVar IsAdmin, TRUE
+If IsAdmin
+    Speek Access granted.
+CheckElse
+    Speek Access denied.
+EndIf
+
+# 5. NETWORKING & WEB UTILITIES
+StartServerDev 8000
+StartServerProduct 8080
+
+# 6. ENGINE MEMORY CONFIGURATION
+AutoVarClean Off
+VarMemClean
