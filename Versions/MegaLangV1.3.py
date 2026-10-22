@@ -15,7 +15,6 @@ class MegaLang():
             with open(filename, "r") as file:
                 for line in file:
                     clean_line = line.strip()
-                    # FIX 1: Only run if the line has content AND does NOT start with a comment tag
                     if clean_line and not clean_line.startswith("#"):
                         self.run_command(clean_line)
         except FileNotFoundError:
