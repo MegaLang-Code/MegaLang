@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaLang Download</title>
+    <style>
+        body { 
+            background: #0d1117; 
+            color: #c9d1d9; 
+            font-family: 'Courier New', Courier, monospace; 
+            padding: 40px; 
+            max-width: 800px; 
+            margin: 0 auto;
+            line-height: 1.6; 
+        }
+        h1 { color: #58a6ff; margin-bottom: 5px; }
+        .subtitle { color: #8b949e; font-style: italic; margin-bottom: 30px; }
+        pre { 
+            background: #161b22; 
+            padding: 20px; 
+            color: #7ee787; 
+            border: 1px solid #30363d;
+            border-radius: 6px; 
+            overflow-x: auto;
+        }
+        .btn-container { margin-top: 30px; }
+        a.download-btn { 
+            color: #58a6ff; 
+            text-decoration: none; 
+            border: 2px solid #58a6ff; 
+            padding: 12px 24px; 
+            display: inline-block; 
+            font-weight: bold; 
+            border-radius: 6px;
+            transition: 0.2s;
+        }
+        a.download-btn:hover { 
+            background: #58a6ff; 
+            color: #0d1117; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MegaLang</h1>
+    <div class="subtitle">A coding language at V1.5 with a lot for you to try out.</div>
+
+    <pre>
+# VARIABLE MANIPULATION (No quotes needed!)
+MakeVar PlayerName, Alex 
+MakeVar HighScore, 2500 
+
+# INPUT & OUTPUT (I/O)
+Speek Loading assets...
+Speek HighScore 
+
+# CONDITIONAL LOGIC BLOCKS 
+MakeVar IsAdmin, TRUE 
+If IsAdmin 
+    Speek Access granted. 
+CheckElse 
+    Speek Access denied. 
+EndIf
+    </pre>
+
+    <div class="btn-container">
+        <a href="https://github.com" class="download-btn" target="_blank">
+            Get MegaLang Executable (.exe)
+        </a>
+    </div>
+
+</body>
+</html>
