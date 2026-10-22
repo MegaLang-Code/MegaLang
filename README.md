@@ -41,3 +41,4 @@ VarMemClean
 DON'T DO EVIL (check the bottom of the licence)
 and NO malware of course. (I don't think in it's state is possible)
 (I lost 1.0) At least we have the 1.0 exe.
+If you have suggestions you have to submit a pull request.
