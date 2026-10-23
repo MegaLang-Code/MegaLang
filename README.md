@@ -4,7 +4,8 @@ Then make a .MEGA file or if on an older version of windows use a .MLS (MegaLang
 
 ## Syntax
 here is some syntax for you to study
-I made it so quotes are not needed. Don't ask how
+I made it so quotes are not needed. Don't ask how or why
+
 ``` MegaLang
 # 1. VARIABLE MANIPULATION
 MakeVar PlayerName, Alex
