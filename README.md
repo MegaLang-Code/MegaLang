@@ -1,6 +1,13 @@
 ## Run MegaLang
 download the .exe file I recommend the latest version.
 Then make a .MEGA file or if on an older version of windows use a .MLS (MegaLang Syntax) Made the name for syntax, but it has a use now.
+I got support for Linux to run it after download:
+```
+chmod +x MegaLang
+
+./MegaLang
+```
+.
 
 ## Syntax
 here is some syntax for you to study
