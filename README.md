@@ -45,5 +45,5 @@ VarMemClean
 DON'T DO EVIL (check the bottom of the licence)
 and NO malware of course. (I don't think in it's state is possible)
 (I lost 1.0) At least we have the 1.0 exe.
-If you have suggestions you have to submit a pull request.
+If you have suggestions you have to submit a pull request. (Fork it then submit a pull request once you make your changes, and I'll try to get linux support.)
 
