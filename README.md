@@ -1,3 +1,7 @@
+##Run MegaLang
+download the .exe file I recommend the latest version.
+Then make a .MEGA file or if on an older version of windows use a .MLS (MegaLang Syntax) Made the name for syntax, but it has a use now.
+
 ## Syntax
 here is some syntax for you to study
 I made it so quotes are not needed. Don't ask how
@@ -42,3 +46,4 @@ DON'T DO EVIL (check the bottom of the licence)
 and NO malware of course. (I don't think in it's state is possible)
 (I lost 1.0) At least we have the 1.0 exe.
 If you have suggestions you have to submit a pull request.
+
